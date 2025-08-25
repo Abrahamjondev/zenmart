@@ -1,0 +1,229 @@
+.navbar-frame {
+  position: relative;
+  width: 100%;
+  height: 145px;
+  display: flex;
+  justify-content: center;
+  background: rgba(68, 50, 151, 1);
+}
+.container {
+  position: relative;
+  padding: 20px 0px 14px;
+  width: 1320px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.navbar-top {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-top > a img {
+  margin-right: 76px;
+  width: 117px;
+  height: 36px;
+}
+.navbar-top .nav-search-frame {
+  width: 650px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 6px;
+}
+.navbar-top .search-box {
+  padding: 10px 17px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.search-box .category-list {
+  width: 166px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-right: 1px solid;
+}
+.category-list select {
+  width: 140px;
+  height: 30px;
+  border: none;
+  outline: none;
+
+  /* font-family: Jost;
+  font-size: 16px; */
+  /* font-weight: 500;
+  line-height: 22px; */
+  /* letter-spacing: 0%;
+  text-align: left; */
+}
+.search-box input {
+  width: 387px;
+  height: 22px;
+  margin-left: 12px;
+  border: none;
+  outline: none;
+  color: rgba(98, 105, 116, 1);
+
+  font-family: Jost;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.nav-search-frame .search-icon-box {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 6px 6px 0px;
+  background: rgba(245, 195, 75, 1);
+}
+.search-icon-box img {
+  width: 20px;
+  height: 20px;
+}
+.navbar-top .nav-top-menu {
+  margin-left: 59px;
+  width: 416px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-top-menu .top-menu-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.top-menu-box .box-icon-box {
+  position: relative;
+  margin-right: 16px;
+  width: 54px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+.box-icon-box img {
+  width: 22px;
+  height: 22px;
+}
+.top-menu-box .box-info-box {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+}
+.box-info-box span {
+  color: rgba(255, 255, 255, 1);
+
+  font-family: Jost;
+  font-size: undefinedpx;
+  font-weight: undefined;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.box-info-box strong {
+  color: rgba(255, 255, 255, 1);
+
+  font-family: Jost;
+  font-size: undefinedpx;
+  font-weight: undefined;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.box-icon-box .basket-count {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  top: -2px;
+  right: -2px;
+  background-color: rgba(245, 195, 75, 1);
+}
+
+.navbar-bott {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #5746a1;
+}
+.navbar-bott .navbar-bot-menu-box {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.navbar-bot-menu-box .browse-box {
+  width: 185px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-right: 1px solid #5746a1;
+}
+.browse-box img {
+  /* width: 20px;
+  height: 18px; */
+  /* categories */
+  width: 185px;
+  height: 30.02px;
+}
+.navbar-bot-menu-box .navbar-route-menu {
+  width: 690px;
+  margin-left: 12px;
+  display: flex;
+  flex-direction: row;
+}
+.navbar-route-menu .router-menu {
+  margin-right: 20px;
+  width: auto;
+  font-weight: 41px;
+  display: flex;
+}
+.router-menu a {
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: #fff;
+}
+.router-menu a.active {
+  color: #f5c34b;
+}
+.navbar-bot-menu-box .sorting-menu {
+  display: flex;
+  flex-direction: row;
+}
+.sorting-menu span {
+  margin-left: 20px;
+  color: rgba(255, 255, 255, 1);
+
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
