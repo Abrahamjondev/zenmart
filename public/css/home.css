@@ -150,7 +150,8 @@
   height: 100%;
 }
 /* SERVICE */
-.home-gape .service-frame {
+/* service */
+.home-page .service-frame {
   position: relative;
   margin-top: 30px;
 
@@ -165,7 +166,6 @@
 }
 .service-frame .container .service-box {
   width: 25%;
-
   height: 86px;
 
   display: flex;

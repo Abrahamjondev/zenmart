@@ -1,5 +1,4 @@
-html,
-body {
+html .body {
   margin: 0;
   padding: 0;
 }
@@ -11,15 +10,13 @@ p {
   margin: 0;
 }
 
-/* /* navbar frame
-
-*/
+/* navbar frame */
 
 .container {
+  display: flex;
   position: relative;
   width: 1320px;
   height: auto;
-  display: flex;
 }
 .navbar-frame {
   position: relative;
