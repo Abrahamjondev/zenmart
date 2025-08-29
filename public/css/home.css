@@ -1,4 +1,4 @@
-.home-gape {
+.home-page {
   display: flex;
   flex-direction: column;
   padding-bottom: 60px;
@@ -583,9 +583,11 @@
   height: 368px;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
+
 .spec-product-frame .small-product-wrapper .small-product-box {
   position: relative;
   padding: 30px;
@@ -598,6 +600,7 @@
   background: rgba(243, 245, 246, 1);
   border-radius: 6px;
 }
+
 .spec-product-frame .small-product-box:nth-child(odd) {
   margin-right: 30px;
 }
