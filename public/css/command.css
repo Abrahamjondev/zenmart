@@ -25,6 +25,10 @@ p {
   display: flex;
   justify-content: center;
   background: rgba(68, 50, 151, 1);
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 .navbar-frame .container {
   padding: 20px 0px 14px;
@@ -243,4 +247,199 @@ p {
   font-weight: 500;
   line-height: 28px;
   letter-spacing: 0%;
+}
+/* footer */
+
+.footer-frame {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: rgba(243, 245, 246, 1);
+  padding: 90px 0 20px;
+}
+.footer-frame .footer-spec-title {
+  font-family: Jost;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  color: rgba(4, 30, 66, 1);
+  line-height: 100%;
+  margin-bottom: 30px;
+  display: block;
+}
+.footer-frame .container {
+  flex-direction: column;
+}
+.footer-frame .container .footer-top {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+.footer-frame .top .footer-contact-box {
+  display: flex;
+  flex-direction: column;
+}
+.footer-frame .footer-contact-box .footer-contant-main {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.footer-frame .footer-contant-main img {
+  width: 35px;
+  height: 30px;
+}
+.footer-frame .footer-contant-main div {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-frame .footer-contant-main div srtong {
+  font-family: Jost;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 15px;
+  color: rgba(4, 30, 66, 1);
+  line-height: 22px;
+}
+.footer-frame .footer-contant-main div span {
+  margin-top: 10px;
+  font-family: Jost;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 15px;
+  color: rgba(4, 30, 66, 1);
+  line-height: 22px;
+}
+.footer-frame .footer-support-box {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-frame .footer-support-box a {
+  font-family: Jost;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  color: rgba(4, 30, 66, 1);
+  line-height: 40px;
+}
+.footer-frame .footer-media-box {
+  margin-left: 55px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-frame .footer-media-box .footer-media-main {
+  display: flex;
+  flex-direction: column;
+}
+.footer-frame .footer-media-main .media-box {
+  display: flex;
+  flex-direction: row;
+}
+.footer-frame .media-box i {
+  margin-right: 25px;
+}
+.footer-frame .footer-media-main .mobile-app-box {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer-frame .mobile-app-box img {
+  width: 24px;
+  height: 16px;
+}
+.footer-frame .mobile-app-box span {
+  margin-left: 20px;
+  font-family: Jost;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 40px;
+}
+.footer-frame .footer-media-main .card-box {
+  width: 272px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-frame .container .footer-bottom {
+  margin-top: 90px;
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  border-top: 1px solid rgba(234, 234, 234, 1);
+}
+.footer-frame .footer-bottom .footer-main {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+.footer-frame .footer-main .footer-bottom-left {
+  width: 940px;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+.footer-frame .footer-bottom-left span {
+  margin-right: 60px;
+  font-family: Jost;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 40px;
+  color: rgba(4, 30, 66, 1);
+  width: 280px;
+}
+.footer-frame .footer-main .footer-bottom-right {
+  width: 400px;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-frame .footer-bottom-right .footer-select-box {
+  padding: 10px 20px;
+  box-sizing: border-box;
+  width: 180px;
+  height: 40px;
+  background: rgba(255, 255, 255, 1);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid rgba(234, 234, 234, 1);
+  border-radius: 6px;
+}
+.footer-frame .footer-select-box span {
+  font-family: Jost;
+  font-style: Regular;
+  font-size: 14px;
+  color: rgba(98, 105, 116, 1);
+  line-height: 40px;
+}
+.footer-frame .footer-select-box select {
+  margin-left: 20px;
+  width: 70px;
+  height: 90%;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: rgba(4, 30, 66, 1);
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
 }

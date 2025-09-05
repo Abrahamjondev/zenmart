@@ -1,7 +1,6 @@
 .home-page {
   display: flex;
   flex-direction: column;
-  padding-bottom: 60px;
 }
 .white-svg {
   filter: brightness(0) invert(1);
@@ -98,6 +97,19 @@
   width: 32px;
   height: 2px;
   background: rgba(4, 30, 66, 1);
+}
+/* prev-box */
+/* prev-box */
+/* prev-box */
+/* prev-box */
+
+.container .next-prev-box {
+  width: 25px;
+}
+.container .next-prev-box img {
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
 }
 /* prosuct card */
 .container .product-box {
@@ -482,14 +494,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.selling-product-frame .product-wrapper .next-prev-box {
-  width: 25px;
-}
-.selling-product-frame .next-prev-box img {
-  position: absolute;
-  top: 50%;
-  cursor: pointer;
-}
+
 .selling-product-frame .product-wrapper .product-boxes {
   position: relative;
   width: 1224px;
@@ -785,6 +790,7 @@
   flex-direction: row;
   justify-content: center;
   background-image: url(../images/icons/event_bg.png);
+  background-size: cover;
 }
 .event-frame .container {
   flex-direction: row;
